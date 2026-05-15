@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover {
+    color: orange;
+}
+
+.content {
+    padding: 40px;
+    text-align: center;
+}
